@@ -7,11 +7,20 @@
     <title>Image Carousel</title>
     <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <main role="main">
       <div class="carousel">
-        <div>
+        <button id="previous">Previous</button>
+        <img id="clouds" alt="clouds" style="width: 50%" />
+
+        <button id="next">Next</button>
+        <!-- <div>
           <img
             src="images/clouds1.jpg"
             style="width: 50%"
@@ -46,14 +55,9 @@
               alt="cloud four"
               ;
             />
-          </a>
-        
+          </a> -->
       </div>
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"
-      ></script>
+
       <script src="index.js"></script>
     </main>
   </body>
